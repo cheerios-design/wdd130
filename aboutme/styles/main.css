@@ -1,0 +1,69 @@
+/*Setting up the fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:500|Montserrat:500');
+
+html {font-size: 125%;} /*20px*/
+
+body {
+  background: orangered;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  color: #151515
+}
+
+p {margin-bottom: 1rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #151515;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209rem;
+  color: #fff;
+}
+
+h2 {font-size: 3.157rem;}
+
+h3 {font-size: 2.369rem;}
+
+h4 {font-size: 1.777rem;}
+
+h5 {font-size: 1.333rem;}
+
+em {font-weight: bold ;}
+
+small, .text_small {font-size: 0.75rem;}
+
+/*Setting image position and scale*/
+img{
+    background-color: #fff;
+    padding: 10px;
+    margin: 0, 20px, 10px, 0;
+    float: right; 
+    width: 30%; height: auto;
+    position: relative;
+    
+}
+
+/*Setting up the whole body*/
+body {
+    margin: 20px;
+    background-color: orangered;
+}
+
+/*Text content*/
+section #introduction {
+    margin: 0, 10px, 20px, 0;
+    padding: 0;
+    float: left;
+}
+
+section #edu_pro {
+    margin: 0, 10px, 20px, 0;
+    float: left;
+}
