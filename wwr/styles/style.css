@@ -28,7 +28,7 @@ h4{
 
 
 
-div #content{
+#content{
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -83,7 +83,11 @@ main section{
 
 #background{
     height: 725px;
-    background-color:#396e94;
+    background-color:#f3f3f3;
+}
+
+.social img{
+    width: 80px;
 }
 
 footer{
