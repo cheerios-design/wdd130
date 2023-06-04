@@ -96,7 +96,7 @@ nav a:hover{
 }
 
 .msg p{
-    color: white;
+    color: #f3f3f3;
     font-family: 'Montserrat', Courier, monospace;
     font-size: .8em;
     padding-bottom: 15px;
@@ -239,7 +239,7 @@ footer .social img{
     
 }
 
-
+/*Responsive*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
