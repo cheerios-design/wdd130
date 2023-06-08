@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:&family=Montserrat:&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@500&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #003049   ;
-  --secondary-color: #313131 ;
+  --primary-color: #003049;
+  --secondary-color: #313131;
   --accent1-color: #f77f00;
   --accent2-color: #fcbf49;
 
