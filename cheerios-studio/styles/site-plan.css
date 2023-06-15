@@ -127,16 +127,16 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
-/* .sitemap {
+ .sitemap {
   display: grid;
   justify-content: center;
 
   grid-template-columns: repeat(6, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
+  grid-template-areas: ". . Home Home . ."
     ". . . top . ."
     ". left left right right ."
-    "page2 page2 . . page3 page3";
+    "WHAT WHAT . . WORK WORK";
 }
 .sitemap > div {
 
@@ -144,7 +144,7 @@ nav a:hover {
 
 }
 .sm-home {
-  grid-area: HOME;
+  grid-area: Home;
   background-color: #ccc;
   line-height: 3em;
 }
@@ -174,4 +174,4 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
-} */
+}
