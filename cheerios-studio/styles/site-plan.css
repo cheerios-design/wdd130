@@ -35,6 +35,12 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  width: 800px;
+}
+.logo {
+  display: block;
+  width: 250px;
+  height: auto;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -138,17 +144,17 @@ nav a:hover {
 
 }
 .sm-home {
-  grid-area: home;
+  grid-area: HOME;
   background-color: #ccc;
   line-height: 3em;
 }
 .sm-page2 {
-  grid-area: page2;
+  grid-area: WHAT;
   background-color: #ccc;
   line-height: 3em;
 }
 .sm-page3 {
-  grid-area: page3;
+  grid-area: WORK;
   background-color: #ccc;
   line-height: 3em;
 }
