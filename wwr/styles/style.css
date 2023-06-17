@@ -63,8 +63,6 @@ h4{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-
-
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -142,6 +140,18 @@ nav a:hover{
     z-index: -1;
 }
 
+.contactus{
+    grid-column: 5/6;
+    grid-row: 7/8;
+    margin-top: 50%;
+    justify-self: center;
+    align-self: center;
+    background-color: #dd6031;
+    padding: 25px;
+    text-decoration: none;
+}
+
+
 main{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -162,6 +172,32 @@ main section img{
     grid-row: 4/9;
 }
 
+.content_blog {
+    position: relative;
+    display: block;
+    text-align: left;
+    margin-left:50px;
+    margin-top: 55px;
+    grid-column: 1/10;
+}
+
+.content_blog h2{
+    color: #a43312;
+    font-family: 'Inter', sans-serif;
+    margin: 10px;
+    font-size: 2em;
+}
+
+.content_blog p{
+    color: #111111;
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 1.2em;
+    padding-bottom: 15px;
+}
+
+.content_blog #c1, #c2, #c3{
+    margin-top: 35px;
+}
 .social img{
     width: 80px;
 }
@@ -235,6 +271,15 @@ footer .social img{
 .mountains{
     grid-column: 2/8;
     grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+}
+
+.view{
+    width: 800px;
+    height: 533.5px;
+    grid-column: 3/8;
+    grid-row: 7/8;
     box-shadow: 5px 5px 10px #6f7364;
     
 }
