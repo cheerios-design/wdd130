@@ -86,34 +86,149 @@ nav {
   color: #003049;
 }
 
-main .home-grid {
+/* .body-container{
   display: grid;
-  gap: 2rem;
-}
+  grid-template-columns: repeat(3, 450px);
+  grid-template-rows: repeat(3, 1100px);
+} */
 
-#hero {
+#hero{
   position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 450px);
+  grid-template-rows: 100px repeat(3, 300px) 100px;
 }
 
 #hero h1,
 #hero p {
   position: absolute;
-  top: 50%;
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+  grid-column: 2/3;
+  grid-row: 3/4;
   text-align: center;
   color: var(--headline-color-on-fcbf49);
   z-index: 1;
-  font-size: 2.8em;
-}
-#hero p{
-  top: 60%;
-  font-size: 2em;
 }
 
 .hero-img {
-  display: block;
-  width: 100%;
-  height: auto;
-  opacity: 70%;
+  position: relative;
+  grid-row: 2/3;
+  height: 900px;
+  width: auto;
+  opacity: 80%;
 }
+
+/* Align h1 and p elements in the center and on top */
+#hero h1, p{
+  grid-row: 3/4;
+  justify-self: center;
+  align-self: center;
+}
+
+
+#hero p{
+  grid-row: 3/4;
+  grid-column: 1/4;
+  justify-self: center;
+  top: 150px;
+  font-size: 1.8em;
+}
+
+.home-grid{
+  position: relative;
+  grid-row: 2/3;
+}
+
+.main-img{
+  position: relative;
+  grid-column: 3/4;
+  height: 340px;
+  width: auto;
+  left: 900px;
+}
+
+.intro{
+  display: grid;
+  grid-template-columns: repeat(3, 450px);
+  grid-template-rows: 200px 340px;
+}
+
+.intro h2, p{
+  /* grid-column: 1/3;
+  grid-row: 1/2; */
+  margin-left: 10px;
+}
+
+.intro p{
+  align-self: center;
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.intro .second-paragraph{
+  grid-row: 2/3;
+  grid-column: 1/3;
+  align-self: self-end;
+  margin-right: 10px;
+}
+
+.main-img{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+
+/* .msg-img #center{
+  position: relative;
+  height: 340px;
+  width: 350px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.msg-img #left{
+  position: relative;
+  height: 340px;
+  width: 350px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.msg-img #right{
+  position: relative;
+  height: 340px;
+  width: 350px;
+  grid-column: 4/5;
+  grid-row: 2/3;
+  justify-self: right;
+} */
+
+
+.msg {
+  display: grid;
+  grid-template-columns: 225px 350px 200px 350px 225px; /* Changed to 3 columns */
+  grid-template-rows: 340px;
+  gap: 20px; /* Added gap for spacing between images */
+  margin-top: 100px;
+
+}
+
+.work p{
+  
+  grid-column: 2/5;
+  grid-row: 2/3;
+  justify-self: center;
+  align-self: center;
+}
+
+.msg-img #center{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: auto;
+}
+
