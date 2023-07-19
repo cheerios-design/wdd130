@@ -8,53 +8,61 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <a class="logo" href="index.html">
-                <img src="images/icons/Asset 1.svg" alt="Cheerio Studio Logo">
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/icons/Asset 1.svg" alt="Cheerio Studio logo">
             </a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="what.html">What.</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Work.</a>
-                </li>
-              </ul>
-            </div>
-          </nav>     
-        </div>
-    </nav>
-    </div>
-    <div class="body-container">
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="what.html">WHAT.</a>
+                <a href="work.html">WORK.</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </header>
         <div id="hero">
-            <h1>CHEERIO STUDIO</h1>
+            <div id="hero-box">
+                <img id="hero-img" src="images/site-map-imgs/pexels-ofspace-llc-16323580.jpg" alt="busy desk">
+            </div>
+            <section id="hero-msg">
+            <h1 class="home-title">CHEERIO STUDIO</h1>
             <p>DESIGN THAT DELIGHTS, DEVELOPMENT THAT DELIVERS</p>
-            <img class="hero-img" src="images/site-map-imgs/pexels-ofspace-llc-16323580.jpg" alt="busy desk">
+            </section>
         </div>
-        <main class="home-grid">
-            <section class="intro">
+        <main class="main-grid">
+            <section class="main-img">
+                <img id="sa-img" src="images/site-map-imgs/pexels-fabian-wiktor-3471423.jpg" alt="wireframing">
+            </section>
+            <section class="main-info">
                 <h2>Who are We?</h2>
                 <p>
-                At cheerio Studio, we offer custom web design and development 
-                solutions that prioritize communication, collaboration, and client
-                satisfaction. We deliver high-quality projects within the agreed
-                timeframe and budget, ensuring that clients' needs are met every 
-                step of the way.<p>
-                <p class="second-paragraph">
-                Our team consists of high-skilled designers, developers and content managers that pay 
-                attention to details and your requirements, delivering the best customized web and design 
-                solutions.
+                    At cheerio Studio, we offer custom web design and development
+                    solutions that prioritize communication, collaboration, and client
+                    satisfaction. We deliver high-quality projects within the agreed
+                    timeframe and budget, ensuring that clients' needs are met every
+                    step of the way.
                 </p>
-                <img class="main-img" src="images/site-map-imgs/pexels-fabian-wiktor-3471423.jpg" alt=" A programmer sitting at a desk coding">
+                <p class="second-paragraph">
+                    Our team consists of highly-skilled designers, developers, and content managers that pay
+                    attention to details and your requirements, delivering the best customized web and design
+                    solutions.
+                </p>
             </section>
-            <section class="msg">
-                <div class="msg-img">
-                    <img id="left" src="images/site-map-imgs/pexels-picjumbocom-196644.jpg" alt="showcase1">
-                    <img id="center" src="images/site-map-imgs/pexels-pixabay-270404.jpg" alt="showcase2">
-                    <img id="right" src="images/site-map-imgs/pexels-tranmautritam-251225.jpg" alt="showcase3">
-                </div>          
-                <a class="work" href="works.html">Check Our Work</a>
+        </main>
+        
+            <div class="home-grid">
+                <section class="left-img">
+                    <img class="card-img" src="images/site-map-imgs/demo-picspexels-picjumbocom-196644.png" alt="river in forest">
+                </section>
+                <section class="center-img">
+                    <img class="card-img" src="images/site-map-imgs/demo-picspexels-pixabay-270404.png" alt="">
+                </section>
+                <section class="right-img">
+                    <img class="card-img" src="images/site-map-imgs/demo-picspexels-tranmautritam-251225.png" alt="">
+                </section>
+                <section class="msg">
+                    <a class='join' href="work.html">CHECK OUR WORK</a>
+                </section>
                 <p>
                     Ready to elevate your brand? We specialize in web and graphic design that captivates and 
                     leaves a lasting impression. Let's create a stunning online presence that reflects your 
@@ -62,8 +70,8 @@
                     Don't settle, contact us today to craft a remarkable digital experience. 
                     Your success starts here!
                 </p>
+            </div>
             </section>
-        </main>
     </div>
     <footer>
         <p>Cheerio Studio &copy; 2023 - Sam Daramroei</p>
