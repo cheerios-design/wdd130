@@ -1,0 +1,37 @@
+Documentation for web3schools-component activity (lightbox)
+------------------------------
+THE CSS DOCUMENTATION:
+
+The .row and .column classes are used to create a responsive grid layout for organizing the images.
+The .modal class defines the styles for the modal background, including its position, size, and appearance.
+The .modal-content class specifies the styles for the content inside the modal, such as its position, size, and background color.
+The .close class styles the close button of the modal.
+The .mySlides class hides the image slides by default.
+The .prev and .next classes style the previous and next buttons for navigating between slides.
+The .numbertext class styles the caption text that displays the current slide number.
+The .caption-container class defines styles for the caption container displayed below the images.
+The .demo and .hover-shadow classes provide additional styling for the images and their hover effects.
+
+---------------------------------
+THE JS BREAKDOWN:
+
+openModal(): This function is called when you want to open the modal. It sets the display style of the modal with the ID "myModal" to "block," making it visible.
+closeModal(): This function is called when you want to close the modal. It sets the display style of the modal with the ID "myModal" to "none," hiding it from view.
+slideIndex: This variable is used to keep track of the current slide being displayed.
+showSlides(n): This function is responsible for showing the appropriate slide based on the value of n. It hides all slides by setting their display style to "none," and then displays the slide at the index slideIndex - 1. It also updates the active status of the corresponding thumbnail dot.
+plusSlides(n): This function is called when the previous or next buttons are clicked. It increments or decrements the slideIndex by n and then calls showSlides() to display the appropriate slide.
+currentSlide(n): This function is called when a thumbnail dot is clicked. It sets the slideIndex to the value of n and then calls showSlides() to display the corresponding slide.
+
+---------------------------------
+!OPTIMIZED JS FILE DOCUMENTATION (implements)!
+
+1- Cache DOM elements: Instead of repeatedly querying the DOM for elements with specific 
+IDs or classes, I cached them in variables to avoid redundant lookups.
+
+2- Remove unnecessary variable slideIndex: Since the slideIndex is now passed as a parameter 
+to the showSlides() function, I don't need to declare it globally. 
+So I use the parameter directly within the function.
+
+3- Simplify the plusSlides() function: Since the plusSlides() function already calls showSlides(), 
+I directly modified the slideIndex variable within this function instead of modifying it in showSlides().
+
