@@ -340,7 +340,7 @@
     grid-row: 2;
     max-width: 80%;
     height: 800px;
-    margin: 50px auto; /* Center the image horizontally by using auto margins */
+    margin: 50px 0 0 120px ; /* Center the image horizontally by using auto margins */
   }
 
   .what-grid {
@@ -401,6 +401,8 @@
   margin-left: 10px;
   color: var(--nav-background-color);
   font-family: var(--heading-font);
+  font-size: 1.8em;
+  margin-bottom: 100px;
 }
 
 
