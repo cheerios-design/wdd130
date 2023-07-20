@@ -4,63 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WHAT</title>
-    <link rel="stylesheet" href="styles/what_page.css">
+    <title>WHAT-Cheerio Studio</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <a class="logo" href="index.html">
-                <img src="images/icons/Asset 1.svg" alt="Cheerio Studio Logo">
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/icons/Asset 1.svg" alt="Cheerio Studio logo">
             </a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="what.html">What.</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Work.</a>
-                </li>
-              </ul>
-            </div>
-          </nav>     
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="what.html">WHAT.</a>
+                <a href="work.html">WORK.</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </header>
+        <div id="what-hero-box">
+            <img id="what-hero-img" src="images/site-map-imgs/pexels-tranmautritam-326502.jpg" alt="neat desk view from side">
         </div>
-    </nav>
     </div>
-    <div id="hero">
-        <img id="hero-img" src="images/site-map-imgs/pexels-tranmautritam-326502.jpg" alt="busy desk">
-    </div>
-    <main class="home-grid">
-        <section class="intro">
+    <main class="what-grid">
+        <section class="what-info">
             <h2>What are the services we provide?</h2>
             <p>
-            At Cheerios Studio, we are your one-stop solution for all your digital design needs. 
+                At Cheerios Studio, we are your one-stop solution for all your digital design needs.
             </p>
             <div class="services">
                 <ul>
-                    <li><em>Web Design</em>: We craft visually stunning and user-friendly websites 
-                        that engage your audience and drive results. From responsive layouts to 
-                        seamless navigation, we ensure a memorable online experience for your visitors.</li>
-                    <li><em>UI/UX Design</em>: We prioritize user-centric design, 
-                        creating interfaces that are not only aesthetically pleasing but also 
-                        intuitive and easy to navigate. Our goal is to enhance user satisfaction and 
-                        maximize the impact of your digital products.</li>
-                    <li><em>Social Media Content Management</em>: Harness the power of social media 
-                        with our expert content management services. We develop captivating visuals 
-                        and engaging copy that resonate with your target audience, building a strong 
-                        online presence and driving meaningful engagement.</li>
-                    <li><em>Branding Design</em>: Your brand deserves to stand out in a crowded marketplace. 
-                        We specialize in crafting compelling brand identities that accurately 
-                        represent your values and leave a lasting impression. From logo design to 
-                        brand guidelines, we ensure consistency across all touchpoints.</li>
-                  </ul>
-                
+                    <!-- Services list goes here -->
+                </ul>
             </div>
-            <div id="background"></div>
-            <img class="branding" src="images/site-map-imgs/pexels-valeriia-miller-3685523.png" alt="branding preview">
-            <section class="msg">
-                <h2>Start Your Journey With Us Here! </h2>
-                <a class='contactus' href="#">Get Pricing Info</a>
-            </section>       
+        </section>
+        <div id="call-to-action">
+            <h3>At Cheerios Studio, we are passionate about delivering exceptional
+                designs that elevate your brand and help you achieve your goals.
+                Let us be your creative partner, bringing your vision to life and
+                making a lasting impact in the digital landscape.
+                Contact us today to discuss how we can collaborate and take your
+                brand to new heights.</h3>
+        </div>
+        <br><br><br>
+        <div class="container">
+            <div class="col-md-5">
+                <div class="_card card h-100">
+                    <div class="_card-icon">
+                        <i class="far fa-registered"></i>
+                    </div>
+                    <div class="_card-body">
+                        <h4 class="text-center _card-heading">Start Your Journey With Us Here!</h4>
+                        <span class="mb-4 _card-text text-center"></span>
+                        <button class="btn _card-button btn-lg btn-outline-light btn-block">Get Pricing Info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div id="background"></div>
+        <img class="branding" src="images/site-map-imgs/pexels-valeriia-miller-3685523.png" alt="branding preview">
     </main>
     <footer>
         <p>Cheerios Studio &copy; 2023 - Sam Daramroei</p>
@@ -78,6 +79,5 @@
             </a>
         </div>
     </footer>
-</div>   
 </body>
 </html>
