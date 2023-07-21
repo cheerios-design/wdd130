@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Grids 1 - 5 are 12 columns */
+  .grid1, .grid2, .grid3, .grid4, .grid5 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 1rem;
+  }
+  
+  /* Guideline: Grid 1 has padding top and bottom of 2em, Grid 1 heading is h1 */
+  .grid1 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: grey; /* Setting background color for Grid 1 */
+  }
+  
+  /* Guideline: Grid 2, 4, 5 text are h2 */
+  .grid2 h2, .grid4 h2, .grid5 h2 {
+    color: #FF5733;
+    width: 500px;
+    background-color: snow; /* Setting background color for Grid 2, 4, 5 */
+  }
+  
+  /* Guideline: Grid 3, 6, 7 are h3 */
+  .grid3 h3, .grid6 h3, .grid7 h3 {
+    color: #33FF33;
+    background-color: greenyellow; /* Setting background color for Grid 3, 6, 7 */
+  }
+  
+  /* Guideline: Grid for the Fieldset inside the form is 6 columns (1fr 5fr) */
+  form fieldset {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+  }
+  
+  /* Guideline: Div inside fieldset is 3 columns (1fr 2fr) Grid-gap: 0 1em; */
+  fieldset>div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0 1em;
+    align-items: center;
+  }
+  
+  /* Guideline: Center the text vertically in each row */
+  fieldset>div>* {
+    align-self: center;
+  }
+  
+  /* Guideline: Form labels are right aligned */
+  form label {
+    text-align: right;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Guideline: Field Input are left aligned and width is 100% */
+  form input {
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem;
+  }
+  
+  /* Styling the form submit button */
+  form button {
+    background-color: #FFCC33;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Feel free to adjust colors as per your preference */
+  
